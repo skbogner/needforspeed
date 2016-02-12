@@ -1,0 +1,31 @@
+{
+  "name": "needforspeed",
+  "version": "1.0.0",
+  "description": "A Speed Reading App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skbogner/needforspeed.git"
+  },
+  "keywords": [
+    "Electron",
+    "Speed",
+    "Read",
+    "Need For Speed",
+    "Train",
+    "Practice",
+    "NeedForSpeed"
+  ],
+  "author": "SkBogner",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/skbogner/needforspeed/issues"
+  },
+  "homepage": "https://github.com/skbogner/needforspeed#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
