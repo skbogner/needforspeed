@@ -1,30 +1,30 @@
 {
-  "name": "needforspeed",
+  "name": "ReadForSpeed",
   "version": "1.0.0",
-  "description": "A Speed Reading App",
+  "description": "A Speed Reading Coach",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skbogner/needforspeed.git"
+    "url": "git+https://github.com/skbogner/readforspeed.git"
   },
   "keywords": [
     "Electron",
     "Speed",
     "Read",
-    "Need For Speed",
+    "Read For Speed",
     "Train",
     "Practice",
-    "NeedForSpeed"
+    "ReadForSpeed"
   ],
   "author": "Sebastian Bogner <bogner.sebastian@gmail.com> (http://github.com/skbogner)",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/skbogner/needforspeed/issues"
+    "url": "https://github.com/skbogner/readforspeed/issues"
   },
-  "homepage": "https://github.com/skbogner/needforspeed#readme",
+  "homepage": "https://github.com/skbogner/readforspeed#readme",
   "dependencies": {
     "jquery": "2.2.0"
   },

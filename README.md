@@ -1,4 +1,4 @@
-# Need For Speed
+# Read For Speed
 
 **Your own personal speed reading coach.**
 
