@@ -19,12 +19,15 @@
     "Practice",
     "NeedForSpeed"
   ],
-  "author": "SkBogner",
+  "author": "Sebastian Bogner <bogner.sebastian@gmail.com> (http://github.com/skbogner)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/skbogner/needforspeed/issues"
   },
   "homepage": "https://github.com/skbogner/needforspeed#readme",
+  "dependencies": {
+    "jquery": "2.2.0"
+  },
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"
   }

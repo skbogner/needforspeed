@@ -2,12 +2,32 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Need For Speed</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="Absolute-Center">
+      <p id="displayer">Hello World!</p>
+    </div>
+
+
+    <script>window.$ = window.jQuery = require('./node_modules/jquery');</script>
+    <script>
+      text = ['Hello', 'there', 'mister', 'Sebastian', 'Bogner.', 'Do', 'you', 'have', 'the', 'Need', 'For', 'Speed?']
+      i = 0
+
+      wpm = 500;
+      interval = wpm / 60 / 60 * 1000;
+      // Switch text quickly
+      setInterval(nextWord, interval);
+
+      function nextWord() {
+        $('#displayer').html(text[i++]);
+        if (i >= text.length) {
+          i = 0;
+        }
+      }
+    </script>
   </body>
 </html>
